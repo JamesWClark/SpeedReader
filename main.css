@@ -1,0 +1,14 @@
+
+
+.char {
+  width: 1em;
+  margin: -1px;
+}
+
+.print-container {
+  font-family: monospace;
+}
+
+#c13 {
+  color: red;
+}
