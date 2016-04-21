@@ -1,12 +1,19 @@
+div {
 
-
+}
 .char {
-  width: 1em;
-  margin: -1px;
+
 }
 
-.print-container {
-  font-family: monospace;
+/* https://davidwalsh.name/remove-whitespace-inline-block */
+#print-container {
+  font-family: sans-serif;
+  font-size: 0;
+}
+
+#print-container div {
+  width: 0.8em;
+  font-size: 20px;
 }
 
 #c13 {
