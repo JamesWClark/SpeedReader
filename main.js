@@ -77,6 +77,12 @@ $(document).ready(function() {
                 i++;
                 displayWord(words[i]);
                 break;
+            case 38: // up arrow
+                speed -= 25;
+                break;
+            case 40: // down arrow
+                speed += 25;
+                break;
         }
     });
     
